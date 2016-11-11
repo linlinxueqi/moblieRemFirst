@@ -1,0 +1,102 @@
+.shop-header{
+	width: 100%;
+	height:1.1rem;
+	text-align: center;
+	h1{
+		height: 1.1rem;
+		line-height:1.1rem;
+		background-color:@bg-gray;
+	}
+}
+
+.shop-container{
+	width:100%;
+	padding-bottom: 1.2rem;
+	.shop-content{
+		width:100%;
+		height:3.425rem;
+		padding:0.4rem 0;
+		border-bottom:1px solid #EEEEEF;
+		.shop-img{
+			width:2.625rem;
+			height:2.625rem;
+			img{
+				width:100%;
+				height:100%;
+			}
+		}
+		.shop-desc{
+			h1{
+				color: @gray;
+			}
+			p{
+				color: @gray;
+				line-height: 0.4rem;
+				margin: 0.075rem 0;
+			}
+			span{
+				color:@price-pcolor;
+				font-weight:400;
+			}
+			.shop-btn{
+				margin-top:0.25rem;
+				// border:1px solid @gray;
+				width:2.1rem;
+				height:0.7rem;
+				background-color: @bg-gray;
+				span{
+					display: inline-block;
+					width:33%;
+					height: 0.7rem;
+					text-align: center;
+					line-height: 0.7rem;
+					color: #000;
+					&:nth-child(2){
+						width:28%;
+						height:0.59rem;
+						line-height: 0.59rem;
+						background-color: @white;
+						margin:0.055rem;
+					}
+				}
+			}
+		}
+	}
+}
+
+.shop-end{
+	width:100%;
+	height:1.2rem;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	background-color: @white;
+	.all-price,.shop-continue,.shop-jiesuan{
+		width:33%;
+		height:1.2rem;
+		text-align: center;
+	}
+	.all-price{
+		span{
+			display: inline-block;
+			margin-top: 0.125rem;
+			margin-right: 0.125rem;
+		}
+		p{
+			span{
+				color: #FF7348;
+				font-weight: 600;
+			}
+		}
+	}
+	.shop-continue,.shop-jiesuan{
+		line-height: 1.2rem;
+	}
+	.shop-continue{
+		background-color: #F4F4F4;
+	}
+	.shop-jiesuan{
+		background-color: #FF5722;
+		color: @white;
+	}
+}

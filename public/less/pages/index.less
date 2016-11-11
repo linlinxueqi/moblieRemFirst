@@ -1,0 +1,141 @@
+@import url('base.less');
+@import url('../variables.less');
+
+.cards{
+	margin-top: 0.4rem;
+	width: 100%;
+	height: 4.8rem;
+	background-color: @white;
+	padding-bottom: 0.25rem;
+	.cards-title{
+		width:100%;
+		height:1.0rem;
+		line-height: 1.0rem;
+		span{
+			float: left;
+			padding-left:0.25rem;
+			color: @color-h1;
+		}
+		a{
+			// display: inline-block;
+			float: right;
+			padding-right: 0.25rem;
+			color: @a-gray;
+		}
+	}
+	.cards-img{
+		wdith:8.875rem;
+		height: 3.55rem;
+		padding:0 0.25rem;
+		a{
+			width:100%;
+			height:100%;
+			img{
+				width:100%;
+				height:100%;
+			}
+		}
+	}
+}
+
+// 商品详情部分
+#goods-group{
+	width:100%;
+	margin-top: 0.35rem;
+	background-color: @white;
+	.goods-title{
+		width:100%;
+		height:1.0rem;
+		line-height: 1.0rem;
+		h1{
+			color: @color-h1;
+			padding-left:0.25rem;
+			padding-top: 0.16remx;
+		}
+	}
+	.goods-detail{
+		height:3.45rem;
+		width:100%;
+		padding: 0.325rem 0.325rem 0.325rem 0.25rem;
+		.goods-img{
+			width:2.65rem;
+			height:2.675rem;
+			img{
+				width:100%;
+				height: 100%;
+			}
+		}
+		.goods-desc{
+			width:5.775rem;
+			height:2.675rem;
+			padding-left: 0.25rem;
+			h3,p,span{
+				width:100%;
+			}
+			p{
+				color:rgba(32,35,37,.6);
+				line-height:0.4rem;
+				margin-bottom:0.125rem;
+			}
+			.goods-price{
+				color: @price-pcolor;
+				font-weight: 500;
+			}
+		}
+	}	
+}
+
+
+// 促销
+#cuxiao{
+	margin-top: 0.4rem;
+	background-color: @white;
+	.cuxiao-title{
+		width: 100%;
+		height: 1.0rem;
+		line-height: 1.0rem;
+		span{
+			color:@color-h1;
+			padding-left: 0.25rem;
+		}
+		a{
+			color:@a-gray;
+			padding-right: 0.25rem;
+		}
+	}
+	.cuxiao-line{
+		padding: 0 0.25rem;
+		width: 100%;
+		height: 2.725rem;
+		margin-top: 0.15rem;
+		.cuxiao-detail{
+			position: relative;
+			width:4.675rem;
+			height:2.725rem;
+			margin-right:0.15rem;
+			&:nth-child(2){
+				margin-right: 0;
+			}
+			.cuxiao-img{
+				width:100%;
+				height:100%;
+				img{
+					width:100%;
+					height:100%;
+				}
+			}
+			span{
+				display: inline-block;
+				width: 100%;
+				height:0.625rem;
+				line-height: 0.625rem;
+				position: absolute;
+				bottom: 0;
+				left: 0;
+				color: @white;
+				background-color: rgba(0,0,0,.4);
+			}
+		}
+
+	}
+}
