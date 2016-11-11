@@ -35,6 +35,8 @@
 
 8. git pull origin master 	 (如果现在是在develop分支上，执行这个命令，就是从master分支更新最新的代码)
 
+9. git checkout 分支名 		 切换分支
+   git checkout 文件名  	 取消此次文件的修改，文件回滚到上一次提交后的状态
 
 
 备注：
