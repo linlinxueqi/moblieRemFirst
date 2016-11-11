@@ -1,0 +1,42 @@
+1. 初始化项目
+   git init
+
+2. 添加需要添加的文件。
+   git add README.md
+
+
+3. 提交项目
+   git commit -m "init project"
+
+4. 向远端提交代码
+   git remote add origin git@github.com:linlinxueqi/test1.git
+
+5. 将新建的分支提交到远端
+   git push -u origin master
+
+
+
+/****************************************************/
+1. 新建一个develop分支(develop是一个随便取的名字，不过建议还是这次要开发什么功能，就取什么名字)
+   git checkout -b develop
+
+2. 将新建的分支提交到远端（这一步只要先执行git push ,   下面的内容会自动提示）
+   git push --set-upstream origin develop
+
+3. 修改要修改的内容。
+
+4. git add 修改的文件
+
+5. git commit -m "修改文件的说明内容"
+
+6. git push                      (此时如果后面不加任何分支名字，默认是在哪个分支下开发就提交到哪个分支)
+
+7. git pull    			 (从远端更新代码，和自己相同的分支)
+
+8. git pull origin master 	 (如果现在是在develop分支上，执行这个命令，就是从master分支更新最新的代码)
+
+
+
+备注：
+
+git branch 查看当前有哪些分支， 颜色不一样的就是当前所在的分支
