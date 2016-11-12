@@ -1,3 +1,36 @@
+@font-face {
+  font-family: 'icomoon';
+  src: url('/icon_font/icomoon.eot?s4yfff');
+  src: url('/icon_font/icomoon.eot?s4yfff#iefix') format('embedded-opentype'), url('/icon_font/icomoon.ttf?s4yfff') format('truetype'), url('/icon_font/icomoon.woff?s4yfff') format('woff'), url('/icon_font/icomoon.svg?s4yfff#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+[class^="icon-"],
+[class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-home3:before {
+  content: "\e902";
+}
+.icon-cart:before {
+  content: "\e93a";
+}
+.icon-user:before {
+  content: "\e971";
+}
+.icon-search:before {
+  content: "\e986";
+}
 [data-dpr="1"] .font-12 {
   font-size: 12px;
 }
@@ -296,6 +329,7 @@ select {
 #cuxiao {
   margin-top: 0.4rem;
   background-color: #ffffff;
+  padding-bottom: 1.375rem;
 }
 #cuxiao .cuxiao-title {
   width: 100%;
@@ -343,6 +377,43 @@ select {
   left: 0;
   color: #ffffff;
   background-color: rgba(0, 0, 0, 0.4);
+}
+#index-icon {
+  width: 100%;
+  height: 1.375rem;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  background-color: #ffffff;
+}
+#index-icon .icon-link {
+  width: 100%;
+  height: 100%;
+  font-size: 0;
+}
+#index-icon .icon-link li {
+  width: 25%;
+  height: 100%;
+  text-align: center;
+  display: inline-block;
+  vertical-align: middle;
+}
+#index-icon .icon-link li:after {
+  content: '';
+  height: 100%;
+  width: 0;
+  display: inline-block;
+  vertical-align: middle;
+}
+#index-icon .icon-link li a {
+  width: 100%;
+  text-align: center;
+  display: inline-block;
+  vertical-align: middle;
+  color: #A4A4A4;
+}
+#index-icon .icon-link li a p {
+  margin-top: 0.125rem;
 }
 .shop-header {
   width: 100%;
