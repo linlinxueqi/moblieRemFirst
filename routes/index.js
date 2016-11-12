@@ -8,6 +8,9 @@ router.get('/', function(req, res, next) {
 
 router.get('/shop',function(req,res,next){
 	res.render('shoping');
+});
+router.get('/search',function(req,res,next){
+	res.render('search');
 })
 
 module.exports = router;
