@@ -4,7 +4,7 @@
 		navBg();
 		var content = $(".goods-desc p");
 		for(var i=0;i<content.length;i++){
-			content[i].innerText = word_ellipsis(content[i].innerText,60);
+			content[i].innerText = word_ellipsis(content[i].innerText,50);
 			
 		}
 		
