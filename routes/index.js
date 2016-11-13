@@ -11,6 +11,9 @@ router.get('/shop',function(req,res,next){
 });
 router.get('/search',function(req,res,next){
 	res.render('search');
+});
+router.get('/user',function(req,res,next){
+	res.render('user');
 })
 
 module.exports = router;
