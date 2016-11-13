@@ -326,6 +326,7 @@ select {
   color: rgba(32, 35, 37, 0.6);
   line-height: 0.4rem;
   margin-bottom: 0.125rem;
+  height: 1.4rem;
 }
 #goods-group .goods-detail .goods-desc .goods-price {
   color: #f60;
