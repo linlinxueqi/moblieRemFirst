@@ -1,0 +1,140 @@
+.user-header{
+	width:100%;
+	height: 2.75rem;
+	padding-top: 0.225rem;
+	background-image: url('/images/banner/body.jpg');
+	background-size:130%;
+	position: relative;
+	&:after{
+		content: '';
+		position: absolute;
+		top:0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background-color: rgba(255,87,34,.9);
+		z-index: 2;
+	}
+	.user-container{
+		position: absolute;
+		z-index: 3;
+		top: 0;
+		left: 0;
+		width:100%;
+		height: 100%;
+		color: #fff;
+		.user-img{
+			width:20%;
+			height: 100%;
+			margin-left: 0.25rem;
+			img{
+				width:100%;
+				border-radius: 100px;		
+				margin-top: 0.5rem;
+			}
+		}
+		.user-message{
+			width:40%;
+			height: 100%;
+			margin-left: 0.5rem;
+			span{
+				display: inline-block;
+				margin-top: 0.65rem;
+			}
+			p{
+				width:65%;
+				height:0.6rem;
+				background-color: rgba(0,0,0,.5);
+				color: #fff;
+				margin-top: 0.25rem;
+				border-radius: 0.5rem;
+				padding-left: 0.2rem;
+				line-height: 0.6rem;
+			}
+		}
+		.user-shezhi{
+			display: inline-block;
+			margin-top: 0.65rem;
+			margin-right: 1.0rem;
+		}
+	}
+}
+
+#user-state{
+	width:100%;
+	height:2.0rem;
+	padding-top: 0.1rem;
+	background-color: #F1F1F1;
+	.user-state-list{
+		width:100%;
+		height: 2.0rem;
+		li{
+			float: left;
+			vertical-align: middle;
+			height: 2.0rem;
+			width:20%;
+			text-align: center;
+			&:after{
+				content: '';
+				display: inline-block;
+				vertical-align: middle;
+				height: 100%;
+			}
+			a{
+				display: inline-block;
+				vertical-align: middle;
+				width:100%;
+				color: #000;
+				p{
+					width:1.0rem;
+					height: 1rem;
+					border-radius: 0.5rem;
+					margin:0 auto;
+				}
+				.blue{
+					background-color: #2FB8CE;
+				}
+				.red{
+					background-color: #E25B5B;
+				}
+				.green{
+					background-color: #62D07A;
+				}
+				.yellow{
+					background-color: #D6C46A;
+				}
+				.pink{
+					background-color: #CA6ABE;
+				}
+				span{
+					display: inline-block;
+					margin-top: 0.125rem;
+				}
+			}
+		}
+	}
+}
+
+#user-personal{
+	width:100%;
+	
+	.personal-list{
+		width:100%;
+		li{
+			width:100%;
+			height:1.375rem;
+			line-height: 1.375rem;
+			padding: 0 0.25rem;
+			border-bottom: 1px solid #BBBBBB;
+			a{
+				color: #BBBBBB;
+				display: inline-block;
+				width: 100%;
+				height: 100%;
+				i{
+					margin-right: 0.125rem;
+				}
+			}
+		}
+	}
+}
